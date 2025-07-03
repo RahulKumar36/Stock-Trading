@@ -13,7 +13,7 @@ function SignUp() {
                 </div>
                 <div class="row">
                     <div class="col-6 offset-3">
-                        <form action="https://stock-trading-dashboard-k9k7.onrender.com" method="post" class="needs-validation" novalidate>
+                        <form action="" method="post" class="needs-validation" novalidate>
 
                             <div class="mb-3">
                                 <label for="username" class="form-lable">Enter username</label>
@@ -33,7 +33,8 @@ function SignUp() {
                                 <input name="password" type="password"
                                     class="form-control" required />
                             </div>
-                            <button className="p-2 btn btn-primary fs-5" style={{ width: "20%", margin: "0 auto" }}>Sign up</button>
+                            <a href="https://stock-trading-dashboard-k9k7.onrender.com"><button className="p-2 btn btn-primary fs-5" style={{ width: "20%", margin: "0 auto" }}>Sign up</button></a>
+                            
                         </form>
                     </div>
                 </div>
