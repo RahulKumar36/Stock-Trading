@@ -1,14 +1,6 @@
 import OpenAccount from "../OpenAccount"
 
 function SignUp() {
-      const navigate = useNavigate();
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Perform form validation and signup logic here
-    // If successful:
-    navigate("https://stock-trading-dashboard-k9k7.onrender.com");
-  };
     return (
         <>
             <div className="container mt-5 p-5">
@@ -21,7 +13,7 @@ function SignUp() {
                 </div>
                 <div class="row">
                     <div class="col-6 offset-3">
-                        <form onSubmit={handleSubmit} class="needs-validation" novalidate>
+                        <form action="" method="post" class="needs-validation" novalidate>
 
                             <div class="mb-3">
                                 <label for="username" class="form-lable">Enter username</label>
@@ -41,7 +33,7 @@ function SignUp() {
                                 <input name="password" type="password"
                                     class="form-control" required />
                             </div>
-                            <a href="https://stock-trading-dashboard-k9k7.onrender.com"><button className="p-2 btn btn-primary fs-5" style={{ width: "20%", margin: "0 auto" }}>Sign up</button></a>
+                            <a href="https://stock-trading-dashboard-k9k7.onrender.com" className="p-2 btn btn-primary fs-5" style={{ width: "20%", margin: "0 auto" }}> Sign Up</a>
                             
                         </form>
                     </div>
