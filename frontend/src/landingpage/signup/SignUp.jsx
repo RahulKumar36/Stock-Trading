@@ -13,7 +13,7 @@ function SignUp() {
                 </div>
                 <div class="row">
                     <div class="col-6 offset-3">
-                        <form action="" method="post" class="needs-validation" novalidate>
+                        <form action="https://stock-trading-dashboard-k9k7.onrender.com" method="post" class="needs-validation" novalidate>
 
                             <div class="mb-3">
                                 <label for="username" class="form-lable">Enter username</label>
