@@ -13,7 +13,7 @@ const SellActionWindow = ({ uid }) => {
 
   const handleSellClick = () => {
     
-    axios.post("http://localhost:3002/sellOrder", {
+    axios.post("https://stock-trading-za1p.onrender.com/sellOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
